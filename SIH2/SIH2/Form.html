@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image:url(Untitled\ design\ \(16\).svg)
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .box {
+    background-color: rgba(235, 211, 144, 0.7); /* Adjust the alpha (0.7) to control opacity */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    display: inline-block;
+}
+
+
+        .bubble {
+            background-color: rgb(43, 6, 79);
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: -20px; /* Adjust as needed */
+        }
+
+        form {
+            text-align: left;
+        }
+    </style>
+    <title>SUGGESTION FORM</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>LOGIN</h1>
+            <div class="bubble">TELL US TO IMPROVE
+            </div>
+            <form action="ananya">
+                <p>
+                    <label for="username"><b>Enter Username:</b></label>
+                    <input type="text" placeholder="username" id="username">
+                </p>
+                <p>
+                    <label for="password"><b>Enter Password</b></label>
+                    <input type="password" placeholder="password" id="password">
+                </p>
+                <p>
+                    <label for="number"><b>Phone Number:</b></label>
+                    <input type="number" placeholder="phone number" id="number">
+                </p>
+                <p>
+                    <label for="check"><b>Agree to Terms & Conditions</b></label>
+                    <input type="checkbox" id="check">
+                </p>
+                <p>
+                    <label for="requests"><b>ANY SUGGESTIONS</b></label>
+                    <br>
+                    <textarea id="requests" rows="15" cols="40" name="suggests" placeholder="type suggestions"></textarea>
+                </p>
+
+<!-- Additional fields for URL and image upload -->
+<p>
+    <label for="suggestion-url"><b>ADD A URL:</b></label>
+    <input type="url" id="suggestion-url" name="suggestion-url" placeholder="Enter URL (optional)">
+</p>
+<p>
+    <label for="suggestion-images"><b>UPLOAD IMAGES</b></label>
+    <input type="file" id="suggestion-images" name="suggestion-images" accept="image/*" multiple>
+</p>
+
+                <button>SUBMIT</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,205 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(Untitled\ design\ \(21\).svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    
+}
+
+header {
+    background-image: url(Untitled\ design\ \(20\).svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(8, 56, 23);
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    width: 99%;
+    background-color: #AEC8BC;
+}
+
+button {
+    border-radius: 10px;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    top:23px;
+}
+
+main {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-image: url(https://i.stack.imgur.com/pHq2y.png);
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+}
+
+#avatar-selection,
+#games,
+#seek-help,
+#current-affairs {
+    text-align: center;
+    font-weight: bold;
+}
+
+#avatar-form {
+    display: inline-block;
+}
+
+#avatar-images {
+    margin-top: 20px;
+}
+
+.avatar-button {
+    border-bottom: 20%;
+}
+
+.avatar-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#selected-avatar-message {
+    background-color: #9cbba9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+#avatar-selection {
+    background-image: url('https://mcdn.wallpapersafari.com/medium/42/54/JTt3p8.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#games {
+    background-image: url('https://opengameart.org/sites/default/files/Starry%20night%20Image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#message-content {
+    color: rgb(4, 48, 33);
+    font-size: 16px;
+    text-align: center;
+}
+
+.game-image {
+    max-width: 40%;
+    height: auto;
+    margin: 10px;
+}
+
+.custom-background {
+    color: white;
+    padding: 120px;
+    font-family: cursive;
+    font-weight: normal;
+}
+
+#seek-help {
+    background-image: url('Untitled\ design\ \(6\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#current-affairs {
+    background-image: url('Untitled\ design\ \(7\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#suggestion {
+    background-image: url('Untitled\ design\ \(9\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#seek-help p,
+#current-affairs p,
+#suggestion p {
+
+    display: inline-flexbox;
+    border-radius: 25px;
+}
+
+/* Style the headings within the section to have a background box */
+#seek-help h1,
+#current-affairs h1,
+#suggestion h1 {
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline;
+}
+
+/* Additional styling for the boxed-link class (if needed) */
+.boxed-link {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #AEC8BC;
+    color: rgb(54, 54, 103);
+    padding: 10px;
+    width: 100%;
+    height: 20%;
+}
